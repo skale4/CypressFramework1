@@ -1,0 +1,21 @@
+{
+    "login":
+    {
+       "emailOrMobile":"#emailOrPhone",
+       "password1":"#password",
+       "loginBtn":"#__next > div > main > div > div > form > div:nth-child(1) > div:nth-child(4) > button"
+    },
+    "signUp":
+    {
+        "signUpBtn": "a[href*='/en/signup']",
+        "landLoardOption":"#landlord",
+        "fname1":"div:nth-child(n) > label:nth-child(n) > input",
+        "lname1":"div:nth-child(1) > label:nth-child(2) > input",
+        "email":"div:nth-child(2) > label:nth-child(1) > input",
+        "password":"div:nth-child(2) > label:nth-child(2) > input",
+        "dropdownContainer":".css-2b097c-container",
+        "company":"div:nth-child(4) > label:nth-child(1) > input",
+        "phone":"div:nth-child(4) > label:nth-child(2) > input"
+        
+    }
+}

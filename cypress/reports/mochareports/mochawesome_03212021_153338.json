@@ -1,0 +1,111 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2021-03-21T11:33:17.045Z",
+    "end": "2021-03-21T11:33:38.136Z",
+    "duration": 21091,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "4ec94c54-ba83-4671-829a-cd0140db8ce2",
+      "title": "",
+      "fullFile": "cypress/integration/tests/logintest.js",
+      "file": "cypress/integration/tests/logintest.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "51185f87-ba37-4912-9098-021fd9264ee2",
+          "title": "free crm app",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "login test",
+              "fullTitle": "free crm app login test",
+              "timedOut": null,
+              "duration": 18268,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": "\"cypress/reports/mochareports/assets/tests/logintest.js/free crm app -- login test (failed).png\"",
+              "code": "cy.visit('https://classic.crmpro.com/');\ncy.title().should('eq', 'CRMPRO - CRM software for customer relationship management, sales, and support.');\ncy.get('input[name=\"username\"]').type('batchautomation');\ncy.get('input[name=\"password\"]').type('Test@12345');\ncy.get('input[type=\"submit\"]').click();\ncy.title().should('eq', 'CRMPRO'); // to fail the assertion purposely\ncy.screenshot(); //  cy.get('Contacts').click()",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 4000ms: expected 'Free CRM - CRM software for customer relationship management, sales, and support.' to equal 'CRMPRO'",
+                "estack": "AssertionError: Timed out retrying after 4000ms: expected 'Free CRM - CRM software for customer relationship management, sales, and support.' to equal 'CRMPRO'\n    at Context.eval (https://classic.crmpro.com/__cypress/tests?p=cypress/integration/tests/logintest.js:106:16)",
+                "diff": "- 'Free CRM - CRM software for customer relationship management, sales, and support.'\n+ 'CRMPRO'\n"
+              },
+              "uuid": "03fa906c-47ea-45ef-bbf3-8a8e9b073ba0",
+              "parentUUID": "51185f87-ba37-4912-9098-021fd9264ee2",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "03fa906c-47ea-45ef-bbf3-8a8e9b073ba0"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 18268,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports/mochareports",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "charts": true,
+        "timestamp": "mmddyyyy_HHMMss"
+      },
+      "version": "5.2.0"
+    }
+  }
+}

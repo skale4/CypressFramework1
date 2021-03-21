@@ -1,0 +1,16 @@
+{
+  "baseUrl": "https://react-redux.realworld.io/",
+  "chromeWebSecurity": false,
+  "screenshotsFolder": "cypress/reports/mochareports/assets",
+  "screenshotOnRunFailure": true,
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "reportDir": "cypress/reports/mochareports",
+    "overwrite": false,
+    "html": true,
+    "json": true,
+    "charts": true,
+    "timestamp": "mmddyyyy_HHMMss"
+  },
+  "projectId": "959jon"
+}

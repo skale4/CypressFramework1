@@ -1,0 +1,107 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-03-21T11:32:56.854Z",
+    "end": "2021-03-21T11:33:10.434Z",
+    "duration": 13580,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "dc825e60-8ef4-46e1-9e95-b980d367a273",
+      "title": "",
+      "fullFile": "cypress/integration/tests/ajarSignUp.js",
+      "file": "cypress/integration/tests/ajarSignUp.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "9c344516-b2df-4ba0-9597-96d2d88ac124",
+          "title": "Ajar signup",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Login Test",
+              "fullTitle": "Ajar signup Login Test",
+              "timedOut": null,
+              "duration": 12313,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "var sp = new _signUpPage[\"default\"]();\nsp.visit();\ncy.wait(4000);\nsp.clickSignUp();\nsp.clickLandloard();\nsp.clickNext();\nsp.fillSignUpDetails(testData.firstName, testData.lastName, testData.email, testData.passwordSignUp, testData.noOfcountries, testData.noOfProperties, testData.companyName, testData.phoneNumber);\nsp.clickNextButton();\ncy.screenshot();",
+              "err": {},
+              "uuid": "3dafb99b-c668-4b07-a781-4c017ecd585f",
+              "parentUUID": "9c344516-b2df-4ba0-9597-96d2d88ac124",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "3dafb99b-c668-4b07-a781-4c017ecd585f"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 12313,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports/mochareports",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "charts": true,
+        "timestamp": "mmddyyyy_HHMMss"
+      },
+      "version": "5.2.0"
+    }
+  }
+}

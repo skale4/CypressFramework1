@@ -1,0 +1,107 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-03-16T05:39:08.616Z",
+    "end": "2021-03-16T05:39:18.129Z",
+    "duration": 9513,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "776d2cff-e4e0-4bdb-b47f-fd53fdef78cf",
+      "title": "",
+      "fullFile": "cypress/integration/tests/sample.js",
+      "file": "cypress/integration/tests/sample.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "0697d253-87c5-4fca-932c-b3c9f5fb4273",
+          "title": "launch my app",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "app testing",
+              "fullTitle": "launch my app app testing",
+              "timedOut": null,
+              "duration": 8507,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://www.freshworks.com/');\ncy.contains('Platform');\ncy.contains('Platform').click(); //cy.url().should('include', '/platform')",
+              "err": {},
+              "uuid": "62713239-7dbe-4634-9370-49c4abebd4c8",
+              "parentUUID": "0697d253-87c5-4fca-932c-b3c9f5fb4273",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "62713239-7dbe-4634-9370-49c4abebd4c8"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 8507,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports/mochareports",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "charts": true,
+        "timestamp": "mmddyyyy_HHMMss"
+      },
+      "version": "5.2.0"
+    }
+  }
+}

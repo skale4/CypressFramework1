@@ -1,0 +1,107 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-03-16T05:39:24.404Z",
+    "end": "2021-03-16T05:39:28.109Z",
+    "duration": 3705,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "7fbf89aa-744f-42e9-8aa2-a93f9d2ea159",
+      "title": "",
+      "fullFile": "cypress/integration/tests/viewport_test.js",
+      "file": "cypress/integration/tests/viewport_test.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "87746c9e-2be9-4cf7-a506-cd2ed8e3dc0f",
+          "title": "test diff view ports",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "open in iphone-7",
+              "fullTitle": "test diff view ports open in iphone-7",
+              "timedOut": null,
+              "duration": 2575,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.viewport('iphone-7');\ncy.screenshot();",
+              "err": {},
+              "uuid": "b07b08d6-c431-4c86-9278-ecdbe7a097d4",
+              "parentUUID": "87746c9e-2be9-4cf7-a506-cd2ed8e3dc0f",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "b07b08d6-c431-4c86-9278-ecdbe7a097d4"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2575,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports/mochareports",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "charts": true,
+        "timestamp": "mmddyyyy_HHMMss"
+      },
+      "version": "5.2.0"
+    }
+  }
+}
