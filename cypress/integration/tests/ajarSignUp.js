@@ -12,7 +12,7 @@ describe('Ajar signup', ()=>{
       })
       
    })
-   it('Login Test', ()=>{
+   it('SignUp Test', ()=>{
       const sp = new signUpPage()
       sp.visit()
       cy.wait(4000)
